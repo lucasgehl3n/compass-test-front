@@ -1,69 +1,48 @@
-# compass-test-front
 
-## Build Setup
+# Compasso front-end teste
 
+Olá! Eu sou o Lucas.
+
+Primeiramente, gostaria de agradecer o convite para participar do processo seletivo da Skore.
+
+Procurei utilizar as tecnologias descritas no desafio, embora algumas delas ainda sejam novidade pra mim. Gosto de explorar tecnologias diferentes, então achei o processo divertido!
+
+Toda a aplicação foi construída em cima do Nuxt JS. Foi o meu primeiro contato com a ferramenta, embora eu já trabalhe com o Vue há bastante tempo. Também foi o primeiro contato com o GraphQL.
+
+Infelizmente, devido ao tempo que levei com aprendizado das ferramentas, não consegui dentro do prazo disponibilizado estudar o Jest e executar os testes unitários.
+
+# Alguns dos recursos desenvolvidos
+- Sidebar, carregada no layout da aplicação.
+- Busca de todos os registros utilizando o GraphQL
+- Exibição de ícones conforme o tipo de conteúdo de cada registro conforme retorno da API
+- Breadcrumb para navegação entre as páginas por meio de roteamento
+- Exibição personalizada para diversos tipos de conteúdo. Alguns exemplos: links, vídeos, textos, etc...
+- Responsividade
+- Utilização de Mixins, separação de responsabilidades e afins
+
+# Um pouco dos frameworks e ferramentas utilizadas
+- Nuxt
+- GraphQL e Apollo
+- Google Fonts
+- Moment JS
+- SCSS
+- Font Awesome
+
+# Build setup
 ```bash
-# install dependencies
 $ npm install
-
-# serve with hot reload at localhost:3000
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+# Utilize a URL fornecida ao executar o comando. 
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
-## Special Directories
+# Alguns recursos sugeridos que gostaria de ter implementado se houvesse mais tempo...
+- Filtros na tela principal, utilizando a biblioteca Lodash
+- Verificações de segurança no retorno das requests, tratando casos de erro.
+- Exibição de loader até que o registro tenha sido carregado
+- Exibição de informações do usuário logado ao final da navbar
+- E claro, os testes automatizados.
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+Enfim... Espero que gostem!
+Qualquer dúvida, sinta-se a vontade para me contatar pelo LinkedIn ou através do e-mail contato.lucasgehlen@gmail.com
 
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
