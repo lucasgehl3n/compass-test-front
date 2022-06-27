@@ -14,6 +14,7 @@ Infelizmente, devido ao tempo que levei com aprendizado das ferramentas, não co
 # Alguns dos recursos desenvolvidos
 - Sidebar, carregada no layout da aplicação.
 - Busca de todos os registros utilizando o GraphQL
+- Busca de um registro específico utilizando o seu ID com o GraphQL
 - Exibição de ícones conforme o tipo de conteúdo de cada registro conforme retorno da API
 - Breadcrumb para navegação entre as páginas por meio de roteamento
 - Exibição personalizada para diversos tipos de conteúdo. Alguns exemplos: links, vídeos, textos, etc...
