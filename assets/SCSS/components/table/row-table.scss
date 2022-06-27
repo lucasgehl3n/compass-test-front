@@ -1,0 +1,32 @@
+.row-table-item {
+    border-bottom: 1px solid #e5e5e5;
+    display: flow-root;
+    color: #666;  
+  }
+  
+  .row-table-item :hover{
+    background-color: #f6f7fa;
+  }
+
+  .row-table-item-icon {
+    width: 50px;
+    align-items: center;
+    display: flex;
+  }
+  
+  .row-table-item-title {
+    color: #222;
+    cursor: pointer;
+  }
+  
+  .row-table-item-data-description {
+    color: #999;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .mobile-not {
+      display: none;
+    }
+  }

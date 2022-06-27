@@ -1,0 +1,26 @@
+.ul-breadcrumb {
+    list-style: none;
+    display: block;
+    text-align: -webkit-match-parent;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    margin: 0;
+  }
+  
+  .breadcrumb > * {
+    display: contents;
+  }
+  
+  .breadcrumb > :nth-child(n + 2)::before {
+    content: "/";
+    display: inline-block;
+    margin: 0 20px 0 calc(20px - 4px);
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .link-breadcrumb {
+    color: #666;
+    font-size: 14px;
+  }

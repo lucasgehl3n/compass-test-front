@@ -1,0 +1,19 @@
+.sidebar {
+  background-color: #1a202c;
+  color: white;
+  position: sticky;
+  height: 100%;
+  padding: 0px 3px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.item-sidebar {
+  padding: 20px 15px;
+  border-radius: 3px;
+  color: white;
+}
+
+.item-sidebar:hover {
+  background-color: #212731;
+  cursor: pointer;
+}

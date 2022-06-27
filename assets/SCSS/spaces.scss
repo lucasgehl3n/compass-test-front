@@ -1,0 +1,51 @@
+.padding-20 {
+  padding: 20px;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.p-b-20 {
+  padding-bottom: 20px;
+}
+
+.p-l-20 {
+  padding-left: 20px;
+}
+
+// vertical: 20
+.p-v-10 {
+  padding: 10px 0px;
+}
+
+.p-15-30{
+  padding: 15px 30px;
+}
+
+// larguras
+.w-100 {
+  width: 100%;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+//alturas
+
+.h-100 {
+  @include h-100;
+}
+
+.h-70 {
+  height: 70%;
+}
+
+.min-h-50-vh {
+  min-height: 50vh;
+}
+
+.line-height-large {
+  line-height: 1.8;
+}
