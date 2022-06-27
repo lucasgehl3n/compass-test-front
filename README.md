@@ -40,7 +40,7 @@ $ npm run dev
 - Filtros na tela principal, utilizando a biblioteca Lodash
 - Verificações de segurança no retorno das requests, tratando casos de erro.
 - Exibição de loader até que o registro tenha sido carregado
-- Exibição de informações do usuário logado ao final da navbar
+- Exibição de informações do usuário logado ao final da sidebar
 - E claro, os testes automatizados.
 
 Enfim... Espero que gostem!
