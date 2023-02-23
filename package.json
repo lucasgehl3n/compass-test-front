@@ -20,7 +20,7 @@
     "@nuxtjs/google-fonts": "^2.0.0",
     "@nuxtjs/moment": "^1.6.1",
     "@nuxtjs/pwa": "^3.3.5",
-    "@vue/apollo-composable": "^4.0.0-alpha.18",
+    "@vue/apollo-composable": "^4.0.0-beta.4",
     "@vue/composition-api": "^1.6.3",
     "apollo-boost": "^0.4.9",
     "core-js": "^3.19.3",
